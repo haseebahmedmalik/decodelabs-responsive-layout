@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DecodeLabs | Project 1: Responsive Interface</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@400;500&display=swap">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="logo-container">
+            <span class="logo-badge">DL</span>
+            <span class="logo-text">DecodeLabs <small>Batch 2026</small></span>
+        </div>
+
+        <nav class="site-nav" id="siteNav">
+            <a href="#overview">Overview</a>
+            <a href="#roadmap">Roadmap</a>
+            <a href="#pillars">Pillars</a>
+            <a href="#features">Features</a>
+            <a href="#nextsteps">Next Steps</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button id="theme-toggle" class="btn-toggle" aria-label="Toggle Theme">🌙 Mode</button>
+
+            <button class="hamburger" id="hamburgerBtn" aria-label="Toggle Navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="layout-wrapper">
+
+        <aside class="sidebar">
+            <h3>Training Kit</h3>
+
+            <ul>
+                <li><a href="#overview">📌 Project 1 Intro</a></li>
+                <li><a href="#roadmap">🗺️ Execution Roadmap</a></li>
+                <li><a href="#pillars">🏛️ The Three Pillars</a></li>
+                <li><a href="#features">⚡ Core Standards</a></li>
+                <li><a href="#nextsteps">🚀 Go Build</a></li>
+            </ul>
+
+            <div class="sidebar-card">
+                <h4>Intern Status</h4>
+                <p><strong>Milestone:</strong> Active</p>
+                <p><strong>Verification:</strong> Required</p>
+            </div>
+        </aside>
+
+        <main class="main-content">
+
+            <section id="overview" class="hero-section">
+                <div class="hero-badge">Industrial Training Kit | Project 1</div>
+
+                <h1>You Are The Architect.</h1>
+
+                <p class="hero-subtitle">
+                    Step into the role of a Full Stack Developer at DecodeLabs.
+                    Master the Responsive Layout—where adaptability supersedes
+                    fixed dimensions before you touch backend databases.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#roadmap" class="btn-primary">View Roadmap</a>
+                    <a href="#nextsteps" class="btn-secondary">Get Started</a>
+                </div>
+            </section>
+
+            <section class="overview-section">
+                <div class="section-header">
+                    <h2>The Responsive Architecture</h2>
+                    <p>A Strategic Execution Framework for Full-Stack Interns</p>
+                </div>
+
+                <div class="overview-grid">
+
+                    <div class="info-card">
+                        <h3>🎯 Core Goal</h3>
+                        <p>
+                            Construct a digital experience honoring the Mobile-First
+                            paradigm with zero reliance on bulky frameworks.
+                        </p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>🌱 The Philosophy</h3>
+                        <p>
+                            The web is a dynamic, inclusive information system built
+                            on warm, grounded aesthetics and strict WCAG compliance.
+                        </p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>🔒 Qualification Criteria</h3>
+                        <p>
+                            Project 1 is mandatory for every intern. Completion unlocks
+                            subsequent weekly development milestones.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="roadmap" class="roadmap-section">
+
+                <div class="section-header">
+                    <h2>The Execution Roadmap</h2>
+                    <p>6 Milestone Phases from Discovery to Audit</p>
+                </div>
+
+                <div class="roadmap-steps">
+
+                    <div class="step-card">
+                        <span class="step-num">01</span>
+                        <h3>Discovery</h3>
+                        <p>Define 'How Might We' using empathy maps and user research.</p>
+                    </div>
+
+                    <div class="step-card">
+                        <span class="step-num">02</span>
+                        <h3>Wireframe</h3>
+                        <p>Grayscale, mobile-first design focusing on hierarchy and flow.</p>
+                    </div>
+
+                    <div class="step-card">
+                        <span class="step-num">03</span>
+                        <h3>Semantics</h3>
+                        <p>
+                            Implement proper HTML landmarks
+                            (<code>&lt;header&gt;</code>,
+                            <code>&lt;main&gt;</code>,
+                            <code>&lt;article&gt;</code>).
+                        </p>
+                    </div>
+
+                    <div class="step-card">
+                        <span class="step-num">04</span>
+                        <h3>Style</h3>
+                        <p>Apply CSS Grid/Flexbox and the 2025 grounded color palette.</p>
+                    </div>
+
+                    <div class="step-card">
+                        <span class="step-num">05</span>
+                        <h3>Logic</h3>
+                        <p>Manage basic application state and user interactivity via JavaScript.</p>
+                    </div>
+
+                    <div class="step-card">
+                        <span class="step-num">06</span>
+                        <h3>Audit</h3>
+                        <p>Verify LCP/CLS performance metrics and strict WCAG accessibility.</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="pillars" class="pillars-section">
+
+                <div class="section-header">
+                    <h2>Core Design & Technical Pillars</h2>
+                    <p>Raw Materials and Visual Aesthetics for 2025</p>
+                </div>
+
+                <div class="pillars-grid">
+
+                    <div class="pillar-card">
+                        <h3>HTML5: Infrastructure</h3>
+                        <p>
+                            Semantic landmarks providing a clear Table of Contents
+                            for screen readers and AI agents.
+                        </p>
+                    </div>
+
+                    <div class="pillar-card">
+                        <h3>CSS3: The Skin</h3>
+                        <p>
+                            Macro layouts using CSS Grid, micro-components via
+                            Flexbox, and fluid typography via <code>clamp()</code>.
+                        </p>
+                    </div>
+
+                    <div class="pillar-card">
+                        <h3>JavaScript: The Logic</h3>
+                        <p>
+                            Essential state management and interactive triggers
+                            with zero framework bloat.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="palette-container">
+                    <h3>2025 Professional Palette</h3>
+
+                    <div class="palette-swatches">
+
+                        <div class="swatch swatch-stability">
+                            <span class="swatch-name">Stability</span>
+                            <span class="swatch-hex">#A15D4C (Terracotta)</span>
+                        </div>
+
+                        <div class="swatch swatch-trust">
+                            <span class="swatch-name">Trust</span>
+                            <span class="swatch-hex">#E0D5C1 (Sandstone)</span>
+                        </div>
+
+                        <div class="swatch swatch-refinement">
+                            <span class="swatch-name">Refinement</span>
+                            <span class="swatch-hex">#F8F6F1 (Pale Cream)</span>
+                        </div>
+
+                        <div class="swatch swatch-focus">
+                            <span class="swatch-name">Focus</span>
+                            <span class="swatch-hex">#343C4F (Deep Navy)</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="features" class="features-section">
+
+                <div class="section-header">
+                    <h2>Key Requirements & Standards</h2>
+                    <p>Built for Performance, Accessibility, and Scale</p>
+                </div>
+
+                <div class="content-grid">
+
+                    <article class="card">
+                        <h2>Semantic Integrity</h2>
+                        <p>
+                            Rigorous use of semantic landmarks ensuring absolute
+                            accessibility for assistive tech and AI parsers.
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <h2>2025 UI/UX Compliance</h2>
+                        <p>
+                            Transitioning from sterile tech interfaces to warm,
+                            grounded user experiences with balanced typography.
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <h2>Universal Access</h2>
+                        <p>
+                            Strict adherence to WCAG guidelines so every user
+                            experiences seamless navigation across all viewports.
+                        </p>
+                    </article>
+
+                </div>
+            </section>
+
+            <section id="nextsteps" class="nextsteps-section">
+
+                <div class="nextsteps-box">
+                    <h2>Next Steps for Interns</h2>
+
+                    <ol>
+                        <li>
+                            <strong>Open your IDE:</strong>
+                            Set up your local development workspace.
+                        </li>
+
+                        <li>
+                            <strong>Initialize the repository:</strong>
+                            Version control your frontend code.
+                        </li>
+
+                        <li>
+                            <strong>Begin with the blueprint:</strong>
+                            Execute your responsive layout with absolute precision.
+                        </li>
+                    </ol>
+
+                    <button class="cta-btn" id="buildBtn">
+                        Start Building Now
+                    </button>
+                </div>
+
+            </section>
+
+            <section id="contact" class="contact-section">
+
+                <div class="section-header">
+                    <h2>DecodeLabs Program Support</h2>
+                    <p>Reach out for industrial training assistance</p>
+                </div>
+
+                <div class="contact-info-grid">
+
+                    <div class="contact-item">
+                        <span>📞 Phone</span>
+                        <p>+91 89330 06408</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>📧 Email</span>
+                        <p>decodelabs.tech@gmail.com</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>🌐 Website</span>
+                        <p>www.decodelabs.tech</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <span>📍 Location</span>
+                        <p>Greater Lucknow, India</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>
+                &copy; 2026 All Rights Reserved.
+                Designed & Developed by Haseeb Ahmed Malik.
+            </p>
+
+            <p class="footer-sub">
+                DecodeLabs Industrial Training Kit | Batch 2026
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
